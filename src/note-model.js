@@ -9,3 +9,11 @@
   }
 
 })();
+// (function() {
+//   var TEXT = '';
+//   function NoteModel(note){
+//     TEXT = note;
+//     return TEXT;
+//   };
+//
+// })();
