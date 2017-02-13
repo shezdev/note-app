@@ -19,16 +19,9 @@
 // console.log("3. testCircleRadiusEqualDiameter();")
 // testCircleRadiusEqualDiameter();
 
-function testNoteModelStoreText() {
-  var note = new NoteModel("My favourite language is JavaScript");
-  assert.isTrue(note.text === "My favourite language is JavaScript");
-}
-console.log("1. Takes the text of a note upon instantiation and stores the text in a text property on the note.")
-testNoteModelStoreText();
-
 function testNoteModelReturnsText() {
   var note = new NoteModel("My favourite language is JavaScript");
   assert.isTrue(note.getText() === "My favourite language is JavaScript");
 }
-console.log("2. Has a method that will return the note text.")
+console.log("1. Has a method that will return the note text.")
 testNoteModelReturnsText();

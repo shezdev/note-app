@@ -1,19 +1,12 @@
 (function() {
+  var TEXT = "";
 
   NoteModel = function(text) {
-    this.text = text;
+    TEXT = text;
   };
 
   NoteModel.prototype.getText = function() {
-    return this.text;
+    return TEXT;
   }
 
 })();
-// (function() {
-//   var TEXT = '';
-//   function NoteModel(note){
-//     TEXT = note;
-//     return TEXT;
-//   };
-//
-// })();
