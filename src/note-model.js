@@ -1,12 +1,13 @@
-(function() {
-  var TEXT = "";
+(function(exports) {
 
-  NoteModel = function(text) {
-    TEXT = text;
+  var NoteModel = function(text) {
+    this.TEXT = text;
   };
 
   NoteModel.prototype.getText = function() {
-    return TEXT;
+    return this.TEXT;
   };
 
-})();
+  exports.NoteModel = NoteModel;
+
+})(this);

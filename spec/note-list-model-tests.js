@@ -15,11 +15,3 @@ function testNoteListModelAddsNote() {
 
 console.log("3. Has a method that will create and save a new note.");
 testNoteListModelAddsNote();
-
-
-// function testCircleRadiusEqualDiameter() {
-//   var circle = new Circle();
-//   expect.isEqualTo(circle.radius, 10);
-// }
-// console.log("3. testCircleRadiusEqualDiameter();")
-// testCircleRadiusEqualDiameter();
