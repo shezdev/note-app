@@ -4,7 +4,7 @@ var assert = {
       console.log("Assertion failed |" + assertionToCheck + "| is not truthy. haha try again! :D");
     }
     else {
-      console.log("Test Passed!")
+      console.log("%cTest passed!", 'color: green; font-weight: bold;');
     }
   }
 };
@@ -15,7 +15,7 @@ var reject = {
       console.log("Rejection failed |" + rejectionToCheck + "| is not falsey. haha try again! :D");
     }
     else {
-      console.log("Test Passed!")
+      console.log("%cTest passed!", 'color: green; font-weight: bold;');
     }
   }
 };
@@ -26,7 +26,7 @@ var expect = {
       console.log("Equality failed |" + cond1 + " does not match " + cond2 + "| Hahaha try again! :D");
     }
     else {
-      console.log("Test Passed!")
+      console.log("%cTest passed!", 'color: green; font-weight: bold;');
     }
   }
 };
