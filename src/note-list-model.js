@@ -1,7 +1,7 @@
 (function() {
-  var NOTELIST = [];
 
   NoteListModel = function() {
+    NOTELIST = [];
 
   };
 
@@ -12,7 +12,9 @@
 
   NoteListModel.prototype.getNotes = function() {
     return NOTELIST;
+
   };
 
-
+// exports.setNote = setNote;
+// exports.getNotes = getNotes;
 })();

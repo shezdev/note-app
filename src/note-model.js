@@ -7,6 +7,6 @@
 
   NoteModel.prototype.getText = function() {
     return TEXT;
-  }
+  };
 
 })();
