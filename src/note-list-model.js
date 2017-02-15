@@ -1,6 +1,6 @@
 (function(exports) {
 
-  var NoteListModel = function() {
+  NoteListModel = function() {
     this.NOTELIST = [];
 
   };

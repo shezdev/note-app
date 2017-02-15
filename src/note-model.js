@@ -1,6 +1,7 @@
 (function(exports) {
+  var TEXT = "";
 
-  var NoteModel = function(text) {
+  NoteModel = function(text) {
     TEXT = text;
   };
 

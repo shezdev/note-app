@@ -1,11 +1,11 @@
 (function() {
  var NOTELIST = [];
 
-  View = function(noteList) {
-    NOTELIST = noteList;
+  NoteListView = function(noteListmodel) {
+    NOTELIST = noteListmodel;
   };
 
-  View.prototype.getHTML = function() {
+  NoteListView.prototype.getHTML = function() {
     text = "<ul>";
     for(i=0; i<NOTELIST.getNotes().length; i++){
       text+= "<li><div>"+ NOTELIST.getNotes()[i].getText() +"</div></li>";
