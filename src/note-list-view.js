@@ -1,17 +1,17 @@
 (function() {
- var NOTELIST = [];
+ this.NOTELIST = [];
 
   NoteListView = function(noteListmodel) {
-    NOTELIST = noteListmodel;
+    this.NOTELIST = noteListmodel;
   };
 
-  NoteListView.prototype.getHTML = function() {
-    text = "<ul>";
-    for(i=0; i<NOTELIST.getNotes().length; i++){
-      text+= "<li><div>"+ NOTELIST.getNotes()[i].getText() +"</div></li>";
-    }
-    text+="</ul>";
-    return text;
+  NoteListView.prototype.viewNotes = function() {
+    var markup = "<ul>";
+      for(i=0; i<this.NOTELIST.getNotes().length; i++){
+        markup += "<li><div>"+ this.NOTELIST.getNotes()[i].getText() +"</div></li>";
+      }
+      markup += "</ul>";
+    return markup;
   };
 
 
